@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction:row;
+            position:absolute;
+            width:300px;
+            height:fit-content;
+        }
+        .element{
+            width:50px;
+            height:50px;
+        }
+        .element:hover{
+            width:50px;
+            height:50px;
+            color: grey;
+            background-color:black;
+            transform: translate();
+            transform: rotatey(360deg);
+            animation: example;
+            animation-duration:1s;
+        }
+        .element1:hover{
+            width:50px;
+            height:50px;
+            color: grey;
+            background-color: brown;
+            transform: translate();
+            transform: rotatey(360deg);
+            animation: example;
+            animation-duration:1s;
+        }
+        .element2:hover{
+            width:50px;
+            height:50px;
+            color: grey;
+            background-color: green;
+            transform: translate();
+            transform: rotatey(360deg);
+            animation: example;
+            animation-duration:1s;
+        }
+        .element3:hover{
+            width:50px;
+            height:50px;
+            color: grey;
+            background-color:blue;
+            transform: translate();
+            transform: rotatey(360deg);
+            animation: example;
+            animation-duration:1s;  
+        }
+        .element4:hover{
+            width:50px;
+            height:50px;
+            color: grey;
+            background-color:blueviolet;
+            transform: translate();
+            transform: rotatey(360deg);
+            animation: example;
+            animation-duration:1s;  
+        }
+        .element5:hover{
+            width:50px;
+            height:50px;
+            color: grey;
+            background-color:chartreuse;
+            transform: translate();
+            transform: rotatey(360deg);
+            animation: example;
+            animation-duration:1s;  
+        }
+        @keyframes example{
+            0%{
+                transform: rotatey(25deg);
+                background-color: white;
+            }
+            50%{
+                background-color:white;
+
+            }
+            75%{
+                background-color:white;
+
+            }
+            100%{
+                background-color:white;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <table class="container" border=2px solid black>
+        <td class="element">color is</td>
+        <td class="element1">color is</td>
+        <td class="element2">color is</td>
+        <td class="element3">color is</td>
+        <td class="element4">color is</td>
+        <td class="element5">color is</td>
+
+    </table>
+    
+</body>
+</html>

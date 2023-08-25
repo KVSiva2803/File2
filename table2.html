@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ss {
+            border: 2px solid grey;
+            box-shadow: 8px 10px 10px  grey;
+            position: absolute;
+            left: 35%;
+            top: 8em;
+        }
+
+        .cls {
+            width: 100px;
+            height: 250px;
+            background-color: blueviolet
+        }
+
+        [placeholder~="Email id/PhoneNo"] {
+            color: black;
+        }
+
+        input[type=checkbox] {
+            width: 15px;
+            height: 20px;
+        }
+        ::placeholder {
+            color:Black;
+            font-size:15px; 
+          }
+          input{
+            background-color: grey;
+          }
+          input:hover{
+            background-color: white;
+          }
+        button:hover{
+            color:white;
+       }
+       h1.s{
+        animation-name: example;
+        animation-duration:2s;
+        animation-delay: 1s;
+        animation-iteration-count:1 ;
+        animation-direction: alternate;
+       }
+       h3.s{
+        animation-name: exas;
+        animation-duration:3s;
+        animation-delay:0.8s;
+        animation-iteration-count:1 ;
+        animation-direction: alternate;
+       }
+       @keyframes example {
+        0%{
+            color:white;
+            left: 0em;
+
+        }
+        25%{
+            color:white;
+        }
+        50%{
+            color:white;
+        }
+        75%{
+            color:rgb(215, 86, 86);
+        }
+    }
+    @keyframes exas {
+        0%{
+            color:black;
+            left: 0em;
+        }
+        25%{
+            color:black;
+        }
+        50%{
+            color:black;
+        }
+        75%{
+            color:rgb(215, 86, 86);
+        }
+    }
+    </style>
+</head>
+
+<body class="ss" style="background-color:black">
+    <div style="width:400px;height:550px;background-color:black">
+        <div>
+            <h1 class="s" style="color:RED;position:relative;left:0.5em;top:em;font-size:px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing:3px">
+                NETFLIX</h1>
+                <h3 class="s" style="color:RED;position:relative;left:0.5em;top:em;font-size:px;letter-spacing:3px">Hello subscriber</h3>
+            <h1 style="color:grey;position:relative;left:2em;top:1em"> Sign In</h1>
+            <div style="position:relative;top:2em;left:4em">
+                <form action="">
+                    <input type="text" style="width:20em;height:35px;border-radius:10px;"
+                        placeholder="Email id/PhoneNo">
+                    <br><br><br>
+                    <input type="password" style="width:20em;height:35px;border-radius:10px;" placeholder="password">
+                    <br><br><br>
+                    <button style="width:20em;height:35px;background-color:red;border-radius:10px">SIGN IN</button>
+                    <br>
+                    <input type="checkbox" style="position:relative;top:5px;">
+                    <p style="color:white;display:inline;display:inline;">Remember Me</p>
+                    <p class="m" style="color:white;display:inline;text-align:right;position:relative;left:6em;font-size:small">Need Help?</p>
+                </form>
+                    <img src="./facebook.png" alt="facebook" width="20px"
+                        style="border-radius:10px;position:relative;top:2em">
+                    <p style="color:grey;display:inline;top:1.7em;position:relative;color:white">login with facebook</p><br><br><br>
+                    <p style="color:grey;display:inline;">New to Netflix?<p style="color:white;display:inline;">Sign Up Now</p></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

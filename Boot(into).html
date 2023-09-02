@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            border-radius: 50%;
+            position: relative;
+            left:40%;
+            top:60px;
+            animation-name: image;
+            animation-duration:5s;
+            animation-timing-function: ease-in-out;
+            transform:skew(360deg);
+            transition-property: width;
+            transition-timing-function:ease;
+            transition-delay: 10s;
+        }
+        @keyframes image{
+            0%{
+                border-radius:0%;
+                transform:skew(0deg);
+                width:100px;
+                opacity:0.1;
+            }
+            25%{
+             border-radius:12.5%;
+             transform:skew(90deg);
+             width:150px;
+             opacity:0.3;
+            }
+            50%{
+                border-radius:25%;
+                transform:skew(180deg);
+                width:200px;
+                opacity:0.6;
+            }
+            75%{
+                border-radius:37.5%;
+                transform:skew(270deg);
+                width:250px;
+                opacity:0.9;
+            }
+            100%{
+                border-radius:50%;
+                transform:skew(360deg);
+                width:350px;
+                opacity:1;
+            }
+        }
+    </style>
+</head>
+<body style="background-color:black">
+    <img src="./desktop-wallpaper-krishna-full-screen-krishna-thumbnail.jpg" alt="">
+</body>
+</html>
